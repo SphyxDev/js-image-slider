@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Image Slider</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <script src="index.js" defer></script>
+
+        <div class="imgSlider">
+            <div class="sliderImgContainer">
+                <img class="sliderImg activeSliderImg" src="Images/1.jpg">
+                <img class="sliderImg" src="Images/2.jpg">
+                <img class="sliderImg" src="Images/3.jpg">
+            </div>
+
+            <div>
+                <button class="sliderBtn prevBtn" onclick="incrementSliderImg(-1)">&#11164;</button>
+                <button class="sliderBtn nextBtn" onclick="incrementSliderImg(1)">&#11166;</button>
+            </div>
+        </div>
+    </body>
+
+</html>
